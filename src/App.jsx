@@ -16,7 +16,9 @@ function App() {
   return (
     <div>
         <Nav />
-        {cards}
+        <main>
+          {cards}
+        </main>
     </div>
   )
 }

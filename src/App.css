@@ -4,6 +4,10 @@ body {
   font-size: 16px;
 }
 
+main {
+  margin: 40px;
+}
+
 .nav {
   background: #F55A5A;
   display: flex;
@@ -24,3 +28,40 @@ body {
   margin: 0;
 }
 
+.card {
+  display: flex;
+  padding: 20px 0;
+  margin: 20px 0;
+  border-bottom: 1px solid #F5F5F5;
+  gap: 20px;
+}
+
+.card--img {
+  max-width: 250px;
+  border-radius: 5px;
+}
+.card--body{
+  font-size: 1rem;
+}
+.card--location {
+
+}
+.card--location-pin {
+  margin-right: 5px;
+  width: 0.5rem;
+}
+.card--location-country{
+  margin-right: 20px;
+  text-transform: uppercase;
+  letter-spacing: 0.4rem;
+}
+
+.card--location-gmaps{
+  color:#918E9B;
+  text-decoration: underline;
+}    
+.card--title{
+  font-size: 1.875rem;
+}
+.card--dates{}
+.card--desc{}
