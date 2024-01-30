@@ -1,0 +1,21 @@
+@import "./abstracts/variables.scss"
+
+.nav {
+    background: $redColor;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  
+.nav--logo {
+  margin-right: 5px;
+}
+
+.nav--heading {
+  font-size: 1rem;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: -1px;
+  margin: 0;
+}
